@@ -2,6 +2,7 @@ html,
 body{
     height:100% ;
     font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .gradient{
@@ -11,4 +12,24 @@ body{
          rgba(18,0,218,1) 0%,
           rgba(212,50,14,1) 100%
           );
+}
+.page-header{
+    margin-top: 4rem;
+    font-size: 1.25rem;
+    color: #fff ;
+}
+.feature{
+    color: #fff;
+}
+.feature ul{
+    padding-left: 2rem;
+    list-style-type: none; 
+}
+
+.feature ul li{
+    padding-left:2rem ;
+    background-image: url(../Bootstrap5/img/check.jfif);
+    background-repeat: no-repeat;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
 }
